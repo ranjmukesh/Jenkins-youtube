@@ -9,25 +9,25 @@ pipeline{
         }
         stage("B"){
             steps{
-                echo "========executing A========"
+                echo "========executing B========"
             }
             
         }
         stage("C"){
             steps{
-                echo "========executing A========"
+                echo "========executing C========"
             }
             
         }
         stage("D"){
             steps{
-                echo "========executing A========"
+                echo "========executing D========"
             }
             
         }
         stage("E"){
             steps{
-                echo "========executing A========"
+                echo "========executing E========"
             }
             
         }
