@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        name = 'gaurav'
+        name = 'Mukesh Ranjan'
     }
     parameters {
         string(name: 'person', defaultValue: 'Saurav Sharma', description: "Who are you?")
@@ -15,7 +15,7 @@ pipeline {
                 ls
                 date
                 pwd
-                cal 2021
+                cal 2022
                 '''
                 
             }
