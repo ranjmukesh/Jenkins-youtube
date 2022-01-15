@@ -24,13 +24,13 @@ pipeline{
         }
         stage("D"){
             steps{
-                echo "========executing A========"
+                echo "========executing D========"
             }
             
         }
         stage("E"){
             steps{
-                echo "========executing A========"
+                echo "========executing E========"
             }
             
         }
